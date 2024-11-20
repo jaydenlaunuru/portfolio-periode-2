@@ -1,0 +1,162 @@
+header {
+    background: #333333;
+    height: 5rem;
+    border-radius: 10px;
+}
+
+header > h2 {
+    display: inline-block;
+    position: absolute;
+    font-family: arial, sans-serif;
+    color: white;
+    margin-left: 20px;
+    top: 2%;
+}
+
+header > ul {
+    display: inline-block;
+    position: absolute;
+    top: 3%;
+    right: 2.5%;
+}
+
+header > ul > li {
+    float: right;
+    margin-right: 2rem;
+}
+
+ul {
+    list-style: none;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+
+* {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: arial, sans-serif;
+    color: white;
+    font-size: 45px;
+
+}
+
+h2 {
+    color: white;
+    font-family: arial, sans-serif;
+}
+
+#about_me, main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: stretch;
+    margin-top: 35px;
+    padding: 30px;
+}
+
+#about_me, p {
+    margin-top: 100px;
+    margin-right: 40px;
+    margin-left: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#about_me, h1 {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#about-me, p {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 22px;
+}
+
+#about-me, h1 {
+    margin: 7.5%;
+}
+
+#about-me {
+    border-radius: 100px;
+    background-color: #333333;
+    margin-top: 35px;
+    padding: 20px;
+}
+
+#future_projects {
+    margin: 70px;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+#future_projects, h2 {
+    text-align: center;
+
+    p {
+        margin: 50px;
+        padding: 50px;
+        text-align: center;
+    }
+}
+
+#portfolio {
+    border-radius: 20px;
+    background-color: #333333;
+    margin: 100px;
+}
+
+#portfolio p {
+    margin-top: 15px;
+}
+
+#management {
+    border-radius: 20px;
+    background-color: #333333;
+    margin: 100px;
+}
+
+#management p {
+    margin-top: 15px;
+}
+
+#interview {
+    text-align: left;
+    margin: 25px;
+    padding: 30px;
+
+    h2 {
+        font-size: 40px;
+    }
+}
+
+#contact {
+    color: white;
+    font-family: sans-serif;
+
+    h2 {
+        font-size: 40px;
+    }
+}
+
+video {
+    margin-right: 50px;
+}
