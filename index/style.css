@@ -1,3 +1,4 @@
+
 header {
     background: #333333;
     height: 5rem;
@@ -41,6 +42,7 @@ a:visited {
 
 body {
     background-color: black;
+    color: white;
 }
 
 p {
@@ -103,39 +105,41 @@ h2 {
 }
 
 #future_projects {
-    margin: 70px;
-    padding: 20px;
-    margin-top: 5px;
-}
-
-#future_projects, h2 {
     text-align: center;
-
-    p {
-        margin: 50px;
-        padding: 50px;
-        text-align: center;
-    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-#portfolio {
-    border-radius: 20px;
+#future_projects h1{
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.project {
     background-color: #333333;
-    margin: 100px;
+    border: 5px;
+    margin-bottom: 30px;
+    padding: 25px;
+    border-radius: 10px;
+    flex: 1 1 18%;
+    margin: 23px;
+    box-sizing: border-box;
 }
 
-#portfolio p {
-    margin-top: 15px;
+.project h2 {
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 25px;
 }
 
-#management {
-    border-radius: 20px;
-    background-color: #333333;
-    margin: 100px;
-}
-
-#management p {
-    margin-top: 15px;
+.project img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 #interview {
@@ -145,6 +149,7 @@ h2 {
 
     h2 {
         font-size: 40px;
+        text-align: center;
     }
 }
 
@@ -159,4 +164,60 @@ h2 {
 
 video {
     margin-right: 50px;
+}
+
+.cookie-popup{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 9999;
+}
+
+.cookie-content{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cookie-btn{
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.cookie-btn:hover{
+    background-color: #45a049;
+}
+
+.cookie-btn:active{
+    background-color: #388e3c;
+}
+
+
+button {
+    padding: 5px;
+    margin: 7px;
+    background-color: dimgrey;
+    color: white;
+    border-radius: 7px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+
+
+body.dark-mode {
+    background-color: lightslategrey;
+    color: black;
 }
