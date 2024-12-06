@@ -14,22 +14,8 @@ header > h2 {
     top: 2%;
 }
 
-header > ul {
-    display: inline-block;
-    position: absolute;
-    top: 3%;
-    right: 2.5%;
-}
-
-header > ul > li {
-    float: right;
-    margin-right: 2rem;
-}
-
 ul {
     list-style: none;
-    font-size: 15px;
-    font-family: Arial, sans-serif;
 }
 
 * {
@@ -48,7 +34,7 @@ body {
 p {
     color: white;
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: helvetica, sans-serif;
 }
 
 h1 {
@@ -216,8 +202,17 @@ button {
     cursor: pointer;
 }
 
-
 body.dark-mode {
-    background-color: lightslategrey;
-    color: black;
+    background-color: slategray;
+}
+
+.demo {
+    margin-right: 36%;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+span{
+    font-size: 33px;
 }
