@@ -33,3 +33,20 @@ let modetogglebutton = document.getElementById("mode-toggle");
 modetogglebutton.addEventListener("click", () => {
     document.body.classList.toggle("dark-mode")
 });
+
+
+
+
+
+const time = new Date().getHours();
+let greeting;
+if (time >= 6 && time < 12) {
+    greeting = "Goedemorgen!";
+}
+else if (time >= 12 && time < 18) {
+    greeting = "Goedemiddag!";
+}
+else {
+    greeting = "Goedeavond!";
+}
+document.getElementById("demo").innerHTML = greeting;
